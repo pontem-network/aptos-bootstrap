@@ -21,3 +21,8 @@ Node rest API - http://127.0.0.1:8080
 Node metrics - http://127.0.0.1:9101
 
 Faucet - http://127.0.0.1:8000
+
+## How to use aptos-cli:
+```
+docker exec -it aptos-validator aptos <args>
+```
