@@ -28,7 +28,7 @@ services:
     restart: always
     build:
       context: .build
-      dockerfile: Dockerfile 
+      dockerfile: dev.Dockerfile 
       args:
         FAUCET_BIN_PATH: ${FAUCET_BIN_PATH}
     depends_on:
